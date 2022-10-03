@@ -24,7 +24,7 @@ namespace Musique
                  new Note(Frequence.Re3, Duree.Blanche),
                  new Note(Frequence.Re3, Duree.Blanche),
                  new Note(Frequence.Re4, Duree.Blanche),
-                 new Note(Frequence.Silence, Duree.Croche),
+                 new Note(Frequence.Fa3, Duree.Croche),
                  new Note(Frequence.Mi3, Duree.Blanche),
                  new Note(Frequence.Sol_3, Duree.Blanche),
                  new Note(Frequence.La_3, Duree.Noire),
