@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;
 
 namespace Musique
@@ -17,14 +13,22 @@ namespace Musique
         else
           Console.Beep((int)n.FrequenceNote, (int)n.DureeNote);
     }
-
     private static void Main(string[] args)
     {
       Note[] SotW = {new Note(Frequence.Silence, Duree.Croche),
-
+                 new Note(Frequence.Re3, Duree.Blanche),
+                 new Note(Frequence.Re3, Duree.Blanche),
+                 new Note(Frequence.Re4, Duree.Blanche),
+                 new Note(Frequence.Fa3, Duree.Croche),
+                 new Note(Frequence.Mi3, Duree.Blanche),
+                 new Note(Frequence.Sol_3, Duree.Blanche),
+                 new Note(Frequence.La_3, Duree.Noire),
+                 new Note(Frequence.La3, Duree.Noire),
+                 new Note(Frequence.Silence, Duree.Croche),
+                 new Note(Frequence.Mi3, Duree.Blanche),
                  new Note(Frequence.Sol3, Duree.Blanche),
-                 new Note(Frequence.Mi3, Duree.Blanche)};
-      Play(SotW);
+                 new Note(Frequence.La3, Duree.Blanche),
+                 new Note(Frequence.Silence, Duree.Croche)};
     }
   }
 }
