@@ -17,7 +17,6 @@ namespace Musique
         else
           Console.Beep((int)n.FrequenceNote, (int)n.DureeNote);
     }
-
     private static void Main(string[] args)
     {
       Note[] SotW = {new Note(Frequence.Silence, Duree.Croche),
@@ -34,9 +33,8 @@ namespace Musique
                  new Note(Frequence.Sol3, Duree.Blanche),
                  new Note(Frequence.La3, Duree.Blanche),
                  new Note(Frequence.Silence, Duree.Croche),
-                 new Note(Frequence.Sol3, Duree.Blanche),
-                 new Note(Frequence.Mi3, Duree.Blanche)};
-      Play(SotW);
-    }
+
+}
+
   }
 }
